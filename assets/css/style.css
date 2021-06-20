@@ -13,3 +13,62 @@ body {
 .navbar-nav {
     margin-left: auto;
 }
+
+.my-carousel {
+    margin-top: -50px;
+}
+
+.carousel-inner > .carousel-item > img {
+    height:680px;
+  }
+  
+hr {
+    color: #11a3cf;
+    background-color: #11a3cf;
+    border:solid 1px;
+    margin-left: 35px;
+    margin-right: 35px;
+
+}
+
+.somos {
+    display: block;
+    text-align: left;
+    margin: 0 1em;
+  }
+  
+  .fa-plane {
+    color: white;
+    background-color:#11a3cf;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin: 0 auto;
+    margin-right: 10px;
+    
+  }
+  
+  .fa-mountain {
+    color: white;
+    background-color:#11a3cf;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin: 0 auto;
+    margin-right: 10px;
+  }
+
+  .fa-route {
+    color: white;
+    background-color:#11a3cf;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin: 0 auto;
+    margin-right: 10px;
+  }
+  
+  
