@@ -1,3 +1,4 @@
+/* css general del body */
 body {
     background-color: #000f08;
     margin: 0;
@@ -6,6 +7,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Estilo del navbar transparente */
 .navbar {
     background-color: transparent !important;
   }
@@ -22,6 +24,7 @@ body {
     height:680px;
   }
   
+/*Lineas hr separadoras */
 hr {
     color: #11a3cf;
     background-color: #11a3cf;
@@ -30,7 +33,7 @@ hr {
     margin-right: 35px;
 
 }
-
+/* Seccion quienes somos */
 .somos {
     display: block;
     text-align: left;
@@ -71,16 +74,29 @@ hr {
     margin-right: 10px;
   }
   
+/* Estilo tarjetas e imagenes */
   .card-img-top {
     width: 100%;
     height: 15vw;
     object-fit: cover;
 }
+/* Estilo de las tarjetas modal */
+.modal-header, .modal-body, .modal-footer {
+  background-color: #000f08;
+}
+.modal-header {
+  border-bottom: 1px solid #11a3cf;
+}
+.modal-footer {
+  border-top: 1px solid #11a3cf;
+}
 
+/* Centrado typeform */
 .type-form {
     display: inline-block;
     }
 
+/* Diseño footer */
 footer {
     background-color: #11a3cf;
 }
